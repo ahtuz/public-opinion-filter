@@ -8,7 +8,10 @@ Michael Jong		2101626651	2017
 Yukha Dharmeswara	2101690774	2017
 
 Important links:
-Proposal, project video, slide presentation, documentation, final paper, the apps and source code: https://drive.google.com/drive/folders/1u0N1RNQnYf0jHt3NIMH15DLMElDE0jMy
+Proposal, project video, slide presentation, documentation, final paper, the apps and source code: 
+https://www.dropbox.com/sh/5kkcjoladudj0qq/AAC5Q2a0r8T9ns9y19ZfBHQGa?dl=0
+You can also check where I found most assets (logo, source code, etc.) in the documentation folder.
+
 Project video can also accessed from:
 https://www.youtube.com/watch?v=swHeAgG9Hz8
 
