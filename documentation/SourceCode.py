@@ -33,10 +33,8 @@ def dataFrameFromDirectory(path, classification):
 
 data = DataFrame ({'message': [], 'class': []})
 
-data = data.append(dataFrameFromDirectory(r'C:\Users\Albertus Heronius\Documents\B21\Semester 3\AI\public-opinion-filter\spam', 'spam'),sort=True)
-data = data.append(dataFrameFromDirectory(r'C:\Users\Albertus Heronius\Documents\B21\Semester 3\AI\public-opinion-filter\ham', 'ham' ),sort=True) 
-
-print("adsfghj")
+data = data.append(dataFrameFromDirectory(r'< insert your path to the app folder here >\public-opinion-filter\spam', 'spam'),sort=True)
+data = data.append(dataFrameFromDirectory(r'< insert your path to the app folder here >\public-opinion-filter\ham', 'ham' ),sort=True) 
 
 data.head()
 
@@ -47,7 +45,7 @@ classifier = MultinomialNB
 targets =  data['class'].values
 classifier.fit(counts, targets)
 
-examples = ['asdfghjkl']
+examples = ['exampleSampleText']
 example_counts = vectorizer.transform(examples)
 predictions = classifier.predict(example_counts)
 predictions
